@@ -1,0 +1,23 @@
+{
+  "name": "termi",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "clean": "npx rimraf build",
+    "start": "npx ts-node index.ts",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "raoufsenou <raoufsenou@gmail.com> (https://github.com/raoufsenou)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "rimraf": "^2.6.3",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.12.1",
+    "tslint-microsoft-contrib": "^6.0.0",
+    "typescript": "^3.2.4"
+  }
+}
